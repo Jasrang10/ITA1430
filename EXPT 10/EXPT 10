@@ -1,0 +1,33 @@
+CODE:
+
+free
+free -h
+
+printf "Orange\nApple\nBanana\n" > file.txt
+sort file.txt
+sort -r file.txt
+
+history
+history 10
+
+RESULT:
+
+$ free -h
+               total        used        free
+Mem:           7.6Gi       3.2Gi       2.1Gi
+Swap:          2.0Gi       0.0Gi       2.0Gi
+
+$ sort file.txt
+Apple
+Banana
+Orange
+
+$ sort -r file.txt
+Orange
+Banana
+Apple
+
+$ history
+1  ls
+2  pwd
+3  free -h
