@@ -1,0 +1,17 @@
+touch test.txt
+rm test.txt
+users
+tree
+
+RESULT : 
+$ touch test.txt
+$ ls
+test.txt
+$ rm test.txt
+$ users
+kali
+$ tree
+.
+├── Desktop
+├── Documents
+└── Downloads
