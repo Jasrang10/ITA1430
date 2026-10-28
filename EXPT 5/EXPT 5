@@ -1,0 +1,19 @@
+CODE:
+
+uptime
+date
+touch file1.txt
+mv file1.txt file2.txt
+ls
+
+RESULT:
+
+$ uptime
+10:30:00 up 2:15, 1 user, load average: 0.10, 0.08, 0.05
+
+$ date
+Wed Oct 28 10:30:00 IST 2026
+
+$ mv file1.txt file2.txt
+$ ls
+file2.txt
