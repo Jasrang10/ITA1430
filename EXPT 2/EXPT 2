@@ -1,0 +1,12 @@
+CODE: 
+
+echo -e "Welcome to Kali Linux\nEthical Hacking Lab\nExperiment 2" > filename.txt
+less filename.txt
+more filename.txt
+vi filename.txt
+
+RESULT:
+
+Welcome to Kali Linux
+Ethical Hacking Lab
+Experiment 2
