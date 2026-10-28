@@ -1,0 +1,15 @@
+CODE:
+
+mkdir EthicalHacking
+ls
+echo "Ethical Hacking Laboratory" > file.txt
+cat file.txt
+
+RESULT:
+
+$ mkdir EthicalHacking
+$ ls
+Desktop  Documents  Downloads  EthicalHacking
+
+$ cat file.txt
+Ethical Hacking Laboratory
