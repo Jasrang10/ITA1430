@@ -1,0 +1,16 @@
+CODE:
+
+nmap -sV 127.0.0.1
+nmap -A 127.0.0.1
+sudo nmap -O 127.0.0.1
+
+RESULT:
+
+$ nmap -sV 127.0.0.1
+
+Starting Nmap
+PORT     STATE  SERVICE VERSION
+22/tcp   closed ssh
+80/tcp   closed http
+
+Nmap done: 1 IP address scanned
