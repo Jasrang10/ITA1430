@@ -1,0 +1,19 @@
+CODE:
+
+touch sample.txt
+pwd
+wget https://example.com/
+
+
+RESULT:
+
+$ touch sample.txt
+$ pwd
+/home/kali
+
+$ wget https://example.com/
+--2026-10-28-- https://example.com/
+Resolving example.com... successful
+Connecting to example.com... connected
+Saving to: 'index.html'
+index.html saved
