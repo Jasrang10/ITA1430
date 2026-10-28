@@ -1,0 +1,22 @@
+CODE:
+
+nmap -T2 127.0.0.1
+nmap -T3 127.0.0.1
+
+RESULT:
+
+$ nmap -T2 127.0.0.1
+
+PORT     STATE  SERVICE
+22/tcp   closed ssh
+80/tcp   closed http
+
+Nmap done: 1 IP address scanned
+
+$ nmap -T3 127.0.0.1
+
+PORT     STATE  SERVICE
+22/tcp   closed ssh
+80/tcp   closed http
+
+Nmap done: 1 IP address scanned
