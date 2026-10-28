@@ -1,0 +1,18 @@
+CODDE:
+
+mkdir -p Documents
+cd Documents
+echo "Ethical Hacking Experiment" > file1.txt
+cp file1.txt backup.txt
+ls
+cat backup.txt
+
+RESULT:
+
+$ cd Documents
+$ cp file1.txt backup.txt
+$ ls
+backup.txt  file1.txt
+
+$ cat backup.txt
+Ethical Hacking Experiment
